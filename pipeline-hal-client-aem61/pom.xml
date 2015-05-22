@@ -44,7 +44,7 @@
 
   <!-- Dependencies to include in this package -->
   <dependencies>
-  
+
     <!-- wcm.io Caravan -->
     <dependency>
       <groupId>io.wcm.caravan</groupId>
