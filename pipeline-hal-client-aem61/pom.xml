@@ -11,7 +11,7 @@
 
   <groupId>io.wcm.caravan</groupId>
   <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem61</artifactId>
-  <version>0.2.0-SNAPSHOT</version>
+  <version>0.5.0</version>
   <description>wcm.io Caravan Pipeline and HAL Client for consuming RESTful services</description>
   <packaging>content-package</packaging>
 
@@ -19,7 +19,7 @@
     <connection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</connection>
     <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</developerConnection>
     <url>https://github.com/wcm-io/wcm-io-caravan</url>
-    <tag>HEAD</tag>
+    <tag>io.wcm.caravan.packaging.pipeline-hal-client-aem61-0.5.0</tag>
   </scm>
 
   <properties>
