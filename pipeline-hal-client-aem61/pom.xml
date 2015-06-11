@@ -15,6 +15,13 @@
   <description>wcm.io Caravan Pipeline and HAL Client for consuming RESTful services</description>
   <packaging>content-package</packaging>
 
+  <scm>
+    <connection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</connection>
+    <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</developerConnection>
+    <url>https://github.com/wcm-io/wcm-io-caravan</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
     <content-package-name>wcm-io-caravan-complete</content-package-name>
     <content-package-group>wcm-io</content-package-group>
