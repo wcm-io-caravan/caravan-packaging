@@ -29,7 +29,6 @@
       io.wcm.caravan
     </dependency-includeGroupIds>
     <dependency-includeArtifactIds>
-      org.apache.sling.commons.osgi,
       httpclient-osgi,
       httpasyncclient-osgi,
       httpcore-osgi,
@@ -68,13 +67,13 @@
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.cache.guava</artifactId>
-      <version>0.5.0</version>
+      <version>0.5.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.extensions.hal</artifactId>
-      <version>0.5.0</version>
+      <version>0.5.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
 
