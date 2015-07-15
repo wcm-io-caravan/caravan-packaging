@@ -1,4 +1,4 @@
-<img src="http://wcm.io/images/favicon-16@2x.png"/> Caravan Packaging
+<img src="http://wcm.io/images/favicon-16@2x.png"/> wcm.io Caravan Packaging
 ======
 [![Build Status](https://travis-ci.org/wcm-io-caravan/caravan-packaging.png?branch=master)](https://travis-ci.org/wcm-io-caravan/caravan-packaging)
 
