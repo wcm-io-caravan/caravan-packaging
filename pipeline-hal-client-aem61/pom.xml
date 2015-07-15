@@ -6,7 +6,7 @@
     <groupId>io.wcm.caravan</groupId>
     <artifactId>io.wcm.caravan.parent_toplevel</artifactId>
     <version>0.5.3-SNAPSHOT</version>
-    <relativePath>../../parent_toplevel/pom.xml</relativePath>
+    <relativePath/>
   </parent>
 
   <groupId>io.wcm.caravan</groupId>
@@ -16,9 +16,9 @@
   <packaging>content-package</packaging>
 
   <scm>
-    <connection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</connection>
-    <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-caravan.git</developerConnection>
-    <url>https://github.com/wcm-io/wcm-io-caravan</url>
+    <connection>scm:git:https://github.com/wcm-io-caravan/caravan-packaging.git</connection>
+    <developerConnection>scm:git:https://github.com/wcm-io-caravan/caravan-packaging.git</developerConnection>
+    <url>https://github.com/wcm-io-caravan/caravan-packaging</url>
     <tag>HEAD</tag>
   </scm>
 
