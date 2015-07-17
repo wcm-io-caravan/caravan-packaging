@@ -54,6 +54,12 @@
     <!-- wcm.io Caravan -->
     <dependency>
       <groupId>io.wcm.caravan</groupId>
+      <artifactId>io.wcm.caravan.io.http</artifactId>
+      <version>0.7.1-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.api</artifactId>
       <version>0.5.2</version>
       <scope>compile</scope>
