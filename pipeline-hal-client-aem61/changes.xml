@@ -27,6 +27,9 @@
       <action type="update" dev="sseifert">
         Update Caravan Resilient HTTP.
       </action>
+      <action type="update" dev="sseifert">
+        Switch back to HTTP Client versions shipped wie AEM 6.1.
+      </action>
     </release>
 
     <release version="0.6.0" date="2015-06-25">

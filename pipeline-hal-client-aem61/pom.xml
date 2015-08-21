@@ -33,9 +33,6 @@
       io.wcm.caravan
     </dependency-includeGroupIds>
     <dependency-includeArtifactIds>
-      httpclient-osgi,
-      httpasyncclient-osgi,
-      httpcore-osgi,
       commons-beanutils,
       io.wcm.osgi.wrapper.handy-uri-templates,
       io.wcm.osgi.wrapper.rxjava,
@@ -58,8 +55,13 @@
     <!-- wcm.io Caravan -->
     <dependency>
       <groupId>io.wcm.caravan</groupId>
+      <artifactId>io.wcm.caravan.commons.httpclient</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.io.http</artifactId>
-      <version>0.7.2</version>
+      <version>0.7.3-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -107,21 +109,6 @@
     <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpcore-osgi</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient-osgi</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpasyncclient-osgi</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
