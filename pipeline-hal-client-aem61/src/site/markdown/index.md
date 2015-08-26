@@ -9,7 +9,7 @@ wcm.io Caravan Pipeline and HAL Client for consuming RESTful services in an AEM 
 <dependency>
   <groupId>io.wcm.caravan</groupId>
   <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem61</artifactId>
-  <version>0.6.0</version>
+  <version>0.6.2</version>
 </dependency>
 ```
 
