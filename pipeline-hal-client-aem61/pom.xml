@@ -5,7 +5,7 @@
   <parent>
     <groupId>io.wcm.caravan</groupId>
     <artifactId>io.wcm.caravan.packaging.parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
@@ -34,7 +34,7 @@
     </dependency-includeGroupIds>
     <dependency-includeArtifactIds>
       commons-beanutils,
-      io.wcm.osgi.wrapper.handy-uri-templates,
+      handy-uri-templates,
       io.wcm.osgi.wrapper.rxjava,
       jackson-core,
       jackson-annotations,
@@ -117,8 +117,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.wcm.osgi.wrapper</groupId>
-      <artifactId>io.wcm.osgi.wrapper.handy-uri-templates</artifactId>
+      <groupId>com.damnhandy</groupId>
+      <artifactId>handy-uri-templates</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
