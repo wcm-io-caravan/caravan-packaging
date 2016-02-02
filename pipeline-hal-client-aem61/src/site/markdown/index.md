@@ -2,16 +2,8 @@
 
 wcm.io Caravan Pipeline and HAL Client for consuming RESTful services in an AEM 6.1 Content Package.
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.caravan/io.wcm.caravan.packaging.pipeline-hal-client-aem61/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.caravan/io.wcm.caravan.packaging.pipeline-hal-client-aem61)
 
-### Maven Dependency
-
-```xml
-<dependency>
-  <groupId>io.wcm.caravan</groupId>
-  <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem61</artifactId>
-  <version>0.6.2</version>
-</dependency>
-```
 
 ### Documentation
 
