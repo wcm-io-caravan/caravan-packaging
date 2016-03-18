@@ -61,44 +61,38 @@
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.io.http</artifactId>
-      <version>0.7.4</version>
+      <version>0.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.api</artifactId>
-      <version>0.5.2</version>
+      <version>0.7.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.impl</artifactId>
-      <version>0.5.4</version>
+      <version>0.6.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.cache.guava</artifactId>
-      <version>0.5.2</version>
+      <version>0.7.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.pipeline.extensions.hal</artifactId>
-      <version>1.0.0</version>
+      <version>1.4.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.wcm.caravan</groupId>
       <artifactId>io.wcm.caravan.hal.resource</artifactId>
-      <version>1.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.wcm.caravan</groupId>
-      <artifactId>io.wcm.caravan.commons.stream</artifactId>
       <version>1.1.0</version>
-      <scope>provided</scope>
+      <scope>compile</scope>
     </dependency>
 
     <dependency>
