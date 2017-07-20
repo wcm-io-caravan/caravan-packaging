@@ -28,10 +28,13 @@
         Update all wcm.io Caravan Dependencies.
       </action>
       <action type="update" dev="sseifert">
-        Update handy-uri-templates dependency.
-      </action>
-      <action type="update" dev="sseifert">
         Switch to Java 8.
+      </action>
+    </release>
+
+    <release version="0.6.4" date="2017-07-20">
+      <action type="update" dev="sseifert">
+        Update handy-uri-templates dependency.
       </action>
     </release>
 
