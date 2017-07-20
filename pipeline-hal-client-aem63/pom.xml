@@ -56,11 +56,6 @@
       commons-beanutils,
       handy-uri-templates,
       io.wcm.osgi.wrapper.rxjava,
-      <!--
-      jackson-core,
-      jackson-annotations,
-      jackson-databind,
-      -->
       jackson-core-asl,
       jackson-mapper-asl,
       metrics-core,
@@ -144,23 +139,6 @@
       <artifactId>handy-uri-templates</artifactId>
       <scope>compile</scope>
     </dependency>
-    <!--
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-core</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    -->
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
@@ -210,19 +188,12 @@
   </dependencyManagement>
 
   <build>
-    <resources>
-      <!-- custom package thumbnail -->
-      <resource>
-        <directory>src/main/resources/META-INF/vault/definition</directory>
-        <targetPath>../vault-work/META-INF/vault/definition</targetPath>
-      </resource>
-    </resources>
     <plugins>
 
       <plugin>
-        <groupId>com.day.jcr.vault</groupId>
-        <artifactId>content-package-maven-plugin</artifactId>
-        <version>0.0.24</version>
+        <groupId>io.wcm.maven.plugins</groupId>
+        <artifactId>wcmio-content-package-maven-plugin</artifactId>
+        <version>1.5.2</version>
         <extensions>true</extensions>
         <configuration>
           <failOnError>true</failOnError>

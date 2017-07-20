@@ -196,19 +196,12 @@
   </dependencies>
 
   <build>
-    <resources>
-      <!-- custom package thumbnail -->
-      <resource>
-        <directory>src/main/resources/META-INF/vault/definition</directory>
-        <targetPath>../vault-work/META-INF/vault/definition</targetPath>
-      </resource>
-    </resources>
     <plugins>
 
       <plugin>
-        <groupId>com.day.jcr.vault</groupId>
-        <artifactId>content-package-maven-plugin</artifactId>
-        <version>0.0.24</version>
+        <groupId>io.wcm.maven.plugins</groupId>
+        <artifactId>wcmio-content-package-maven-plugin</artifactId>
+        <version>1.5.2</version>
         <extensions>true</extensions>
         <configuration>
           <failOnError>true</failOnError>
