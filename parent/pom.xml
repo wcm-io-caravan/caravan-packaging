@@ -31,7 +31,7 @@
 
   <groupId>io.wcm.caravan</groupId>
   <artifactId>io.wcm.caravan.packaging.parent</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
 
   <name>Packaging</name>
@@ -41,7 +41,7 @@
     <connection>scm:git:https://github.com/wcm-io-caravan/caravan-packaging.git</connection>
     <developerConnection>scm:git:https://github.com/wcm-io-caravan/caravan-packaging.git</developerConnection>
     <url>https://github.com/wcm-io-caravan/caravan-packaging</url>
-    <tag>HEAD</tag>
+    <tag>io.wcm.caravan.packaging.parent-1.0.2</tag>
   </scm>
 
   <properties>
