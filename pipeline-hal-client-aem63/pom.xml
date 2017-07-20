@@ -3,7 +3,7 @@
   #%L
   wcm.io
   %%
-  Copyright (C) 2014 wcm.io
+  Copyright (C) 2017 wcm.io
   %%
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -30,12 +30,12 @@
   </parent>
 
   <groupId>io.wcm.caravan</groupId>
-  <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem61</artifactId>
+  <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem63</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>content-package</packaging>
   
-  <name>Pipeline HAL Client for AEM 6.1/6.2</name>
-  <description>wcm.io Caravan Pipeline and HAL Client for consuming RESTful services in an AEM 6.1/6.2 Content Package.</description>
+  <name>Pipeline HAL Client for AEM 6.3</name>
+  <description>wcm.io Caravan Pipeline and HAL Client for consuming RESTful services in an AEM 6.3 Content Package.</description>
 
   <scm>
     <connection>scm:git:https://github.com/wcm-io-caravan/caravan-packaging.git</connection>
@@ -45,7 +45,7 @@
   </scm>
 
   <properties>
-    <site.url.module.prefix>packaging/pipeline-hal-client-aem61</site.url.module.prefix>
+    <site.url.module.prefix>packaging/pipeline-hal-client-aem63</site.url.module.prefix>
 
     <content-package-name>${project.artifactId}</content-package-name>
     <content-package-group>wcm-io</content-package-group>
@@ -56,9 +56,6 @@
       commons-beanutils,
       handy-uri-templates,
       io.wcm.osgi.wrapper.rxjava,
-      jackson-core,
-      jackson-annotations,
-      jackson-databind,
       jackson-core-asl,
       jackson-mapper-asl,
       metrics-core,
@@ -143,21 +140,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-core</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
       <scope>compile</scope>
@@ -194,6 +176,16 @@
     </dependency>
 
   </dependencies>
+  <dependencyManagement>
+    <dependencies>
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpasyncclient-osgi</artifactId>
+        <!-- Version matching for HTTP client 4.5.2 that comes with AEM 6.3 -->
+        <version>4.1.2</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
     <plugins>
