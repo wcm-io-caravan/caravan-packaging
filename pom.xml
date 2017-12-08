@@ -37,6 +37,7 @@
 
   <name>Caravan Packaging Root</name>
   <description>Packages for integrating Caravan in other applications.</description>
+  <url>${site.url}/${site.url.module.prefix}/</url>
 
   <modules>
     <module>parent</module>
