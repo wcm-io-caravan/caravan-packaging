@@ -20,13 +20,13 @@
   -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>io.wcm.caravan</groupId>
     <artifactId>io.wcm.caravan.packaging.parent</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <relativePath>parent/pom.xml</relativePath>
   </parent>
 
@@ -37,11 +37,13 @@
 
   <name>Caravan Packaging Root</name>
   <description>Packages for integrating Caravan in other applications.</description>
+  <url>${site.url}/${site.url.module.prefix}/</url>
 
   <modules>
     <module>parent</module>
     <module>pipeline-hal-client-aem61</module>
     <module>pipeline-hal-client-aem63</module>
+    <module>pipeline-hal-client-aem65</module>
   </modules>
 
   <build>
