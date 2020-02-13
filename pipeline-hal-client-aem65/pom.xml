@@ -31,7 +31,7 @@
 
   <groupId>io.wcm.caravan</groupId>
   <artifactId>io.wcm.caravan.packaging.pipeline-hal-client-aem65</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>content-package</packaging>
   
   <name>Pipeline HAL Client for AEM 6.5</name>
