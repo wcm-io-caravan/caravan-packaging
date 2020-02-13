@@ -43,6 +43,7 @@
     <module>parent</module>
     <module>pipeline-hal-client-aem61</module>
     <module>pipeline-hal-client-aem63</module>
+    <module>pipeline-hal-client-aem65</module>
   </modules>
 
   <build>
