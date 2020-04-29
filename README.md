@@ -11,7 +11,8 @@ Packages for integrating Caravan in other applications.
 Documentation: https://caravan.wcm.io/packaging/<br/>
 Issues: https://wcm-io.atlassian.net/<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
-Continuous Integration: https://travis-ci.org/wcm-io-caravan/caravan-packaging/
+Continuous Integration: https://travis-ci.org/wcm-io-caravan/caravan-packaging/<br/>
+Commercial support: https://wcm.io/commercial-support.html
 
 
 ## Build from sources
