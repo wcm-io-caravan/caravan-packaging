@@ -1,6 +1,6 @@
 <img src="https://wcm.io/images/favicon-16@2x.png"/> wcm.io Caravan Packaging
 ======
-[![Build Status](https://travis-ci.org/wcm-io-caravan/caravan-packaging.png?branch=develop)](https://travis-ci.org/wcm-io-caravan/caravan-packaging)
+[![Build Status](https://travis-ci.com/wcm-io-caravan/caravan-packaging.png?branch=develop)](https://travis-ci.com/wcm-io-caravan/caravan-packaging)
 
 wcm.io Caravan - JSON Data Pipelining Infrastructure
 
@@ -11,7 +11,7 @@ Packages for integrating Caravan in other applications.
 Documentation: https://caravan.wcm.io/packaging/<br/>
 Issues: https://wcm-io.atlassian.net/<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
-Continuous Integration: https://travis-ci.org/wcm-io-caravan/caravan-packaging/<br/>
+Continuous Integration: https://travis-ci.com/wcm-io-caravan/caravan-packaging/<br/>
 Commercial support: https://wcm.io/commercial-support.html
 
 
