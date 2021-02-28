@@ -44,6 +44,11 @@
     <tag>HEAD</tag>
   </scm>
 
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/wcm-io-caravan/caravan-packaging/actions</url>
+  </ciManagement>
+
   <properties>
     <site.url.module.prefix>packaging</site.url.module.prefix>
   </properties>
