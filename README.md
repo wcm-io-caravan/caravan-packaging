@@ -9,7 +9,7 @@ wcm.io Caravan - JSON Data Pipelining Infrastructure
 Packages for integrating Caravan in other applications.
 
 Documentation: https://caravan.wcm.io/packaging/<br/>
-Issues: https://wcm-io.atlassian.net/<br/>
+Issues: https://github.com/wcm-io-caravan/caravan-packaging/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io-caravan/caravan-packaging/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
