@@ -10,4 +10,4 @@ wcm.io Caravan Pipeline and HAL Client for consuming RESTful services in an AEM 
 * [Changelog][changelog]
 
 
-[changelog]: changes-report.html
+[changelog]: changes.html
